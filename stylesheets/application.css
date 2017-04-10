@@ -406,6 +406,7 @@ a.issue.closed:visited {
 }
 #main-menu ul {
   margin-left: -15px;
+  width: auto;
 }
 #main-menu ul li {
   float: none;
@@ -413,6 +414,8 @@ a.issue.closed:visited {
   margin: 0;
   padding-bottom: 2px;
   text-align: left;
+  display: block;
+  width: 100%;
 }
 #main-menu ul li a {
   -webkit-user-select: none;
@@ -450,6 +453,13 @@ a.issue.closed:visited {
   color: #333333;
   font-weight: bold;
   text-shadow: none;
+}
+#main-menu .tabs-buttons {
+  display: none;
+}
+#main-menu .menu-children {
+  margin-left: 10px;
+  width: 100%;
 }
 #footer {
   border-top: 1px solid #CCCCCC;
