@@ -455,7 +455,7 @@ a.issue.closed:visited {
   text-shadow: none;
 }
 #main-menu .tabs-buttons {
-  display: none;
+  display: none !important;
 }
 #main-menu .menu-children {
   margin-left: 10px;
